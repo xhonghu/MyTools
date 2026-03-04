@@ -30,8 +30,10 @@ data = {
     "a": 'login',
     "callback": 'dr1003',
     "login_method": '1',
-    "user_account": '221122120304',
-    "user_password": '121546Hhx!!!',
+    ##在这里填入学号
+    "user_account": '学号',
+    ##在这里填入密码
+    "user_password": '密码',
     ##在这里修改成服务器的所在的ip地址
     "wlan_user_ip": '10.12.54.224',
     "wlan_user_ipv6": '',
@@ -59,3 +61,4 @@ print(f"Response:{response}")
 time.sleep(5)
 response1 = requests.get(url,data,headers=header)
 print(f"Response:{response1}")
+
