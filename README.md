@@ -7,7 +7,9 @@ data = {
     "a": 'login',
     "callback": 'dr1003',
     "login_method": '1',
+     ##在这里填入学号
     "user_account": user_account,
+     ##在这里填入密码
     "user_password": user_password,
     ##在这里修改成服务器的所在的ip地址
     "wlan_user_ip": '10.12.44.233',
@@ -23,7 +25,7 @@ data = {
 2、将connection.py文件上传到服务器并配置相关的包
 
 3、cd到该目录执行
-python connection.py 学号 密码
+python connection.py
 
 ping www.baidu.com 看下联网是否成功
 ```
